@@ -8,7 +8,7 @@ namespace Pets.Core.Exceptions.AnimalExceptions
 {
     public class NotAnimalExeption : Exception
     {
-        private const string DefaultMessage = "Животного не существует";
+        private const string DefaultMessage = "Animal not found";
 
         public NotAnimalExeption() : base(DefaultMessage) { }
     }
